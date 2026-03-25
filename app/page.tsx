@@ -4,6 +4,7 @@ import DependencyMap from "./components/DependencyMap";
 import Checklist from "./components/Checklist";
 import Pillars from "./components/Pillars";
 import Footer from "./components/Footer";
+import ShareButton from "./components/ShareButton";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Pillars />
       </main>
       <Footer />
+      <ShareButton />
     </>
   );
 }
