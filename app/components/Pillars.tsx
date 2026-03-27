@@ -102,9 +102,14 @@ export default function Pillars() {
           <h2 className="text-3xl md:text-4xl font-light text-warm-800 mb-4">
             Was darüber hinausgeht
           </h2>
-          <p className="text-warm-500 max-w-xl mx-auto leading-relaxed mb-6">
-            Vorsorge ist nicht nur eine Frage des Vorrats. Es ist eine Frage der
-            Haltung: Wer will ich sein, wenn es ernst wird?
+          <p className="text-warm-500 max-w-xl mx-auto leading-relaxed mb-4">
+            Konserven halten Sie am Leben. Charakter hält die Gesellschaft
+            zusammen. Dieser Raum handelt von dem, was kein Vorrat ersetzen
+            kann.
+          </p>
+          <p className="text-warm-400 max-w-md mx-auto text-xs leading-relaxed mb-6">
+            Fünf Haltungen, die in ruhigen Zeiten klug sind — und in schweren
+            Zeiten unverzichtbar werden.
           </p>
           <div className="max-w-lg mx-auto bg-warm-100 rounded-2xl p-6 text-sm text-warm-600 leading-relaxed">
             Es gibt einen Unterschied zwischen{" "}
@@ -192,16 +197,16 @@ export default function Pillars() {
 
         {/* Kulturgärten */}
         <div className="mt-16 bg-accent/5 rounded-2xl p-8 md:p-10 border border-accent/20">
-          <div className="flex items-start gap-4 mb-4">
+          <div className="flex items-start gap-4 mb-2">
             <span className="text-2xl">{"\u{1F331}"}</span>
             <div>
               <h3 className="text-xl font-medium text-warm-800 mb-2">
                 Kulturgärten
               </h3>
               <p className="text-sm text-warm-600 leading-relaxed">
-                Überschaubare Mikro-Projekte, die Sie in Ihrem direkten Umfeld
-                starten können. Keine utopischen Entwürfe, sondern Keimzellen —
-                Lernprojekte, die wachsen dürfen.
+                Gemeinschaft entsteht nicht durch Reden, sondern durch
+                gemeinsames Tun. Hier sind vier Projekte, die Sie diese Woche
+                starten können — ohne Budget, ohne Genehmigung, ohne Verein.
               </p>
             </div>
           </div>
@@ -209,19 +214,19 @@ export default function Pillars() {
             {[
               {
                 title: "Nachbarschafts-Werkstatt",
-                desc: "Einmal im Monat gemeinsam reparieren. Werkzeug teilen, Wissen teilen.",
+                desc: "Einmal im Monat gemeinsam reparieren. Werkzeug teilen, Wissen teilen. Ein Tisch im Hof reicht als Anfang.",
               },
               {
                 title: "Notfall-Kochgruppe",
-                desc: "Zusammen lernen, mit Grundvorrat gute Mahlzeiten zu kochen.",
+                desc: "Zu dritt lernen, mit Reis, Linsen und Konserven satt zu werden. Wer heute übt, ist morgen vorbereitet.",
               },
               {
                 title: "Lern-Tandem",
-                desc: "Zwei Menschen bringen sich gegenseitig etwas bei. Sprache, Handwerk, Technik.",
+                desc: "Zwei Menschen bringen sich gegenseitig etwas bei. Eine Sprache, ein Handwerk, ein Stück Selbstständigkeit.",
               },
               {
                 title: "Quartier-Karte",
-                desc: "Wer kann was? Wer hat was? Eine analoge Ressourcen-Karte der Nachbarschaft.",
+                desc: "Wer kann was? Wer hat was? Eine handgeschriebene Ressourcen-Karte Ihrer Straße. Analog, damit sie auch ohne Strom funktioniert.",
               },
             ].map((garden) => (
               <div
@@ -237,6 +242,9 @@ export default function Pillars() {
               </div>
             ))}
           </div>
+          <p className="text-center text-accent text-xs mt-6 italic">
+            Der beste Zeitpunkt, ein Netz zu knüpfen, ist bevor man es braucht.
+          </p>
         </div>
       </div>
     </section>

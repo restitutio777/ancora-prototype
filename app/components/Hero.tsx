@@ -23,11 +23,17 @@ export default function Hero() {
         Ancora
       </h1>
 
-      <p className="text-lg md:text-xl text-warm-500 max-w-lg leading-relaxed mb-4">
+      <p className="text-lg md:text-xl text-warm-500 max-w-lg leading-relaxed mb-2">
         Ein digitales Hausbuch für unsichere Zeiten
       </p>
 
-      <p className="text-warm-400 max-w-md text-sm leading-relaxed mt-6 italic">
+      <p className="text-warm-400 text-sm max-w-md leading-relaxed mb-8">
+        Drei Dinge, die jeder Haushalt haben sollte: einen klaren Blick auf die
+        eigene Verwundbarkeit, einen konkreten Plan — und eine Haltung, die
+        trägt.
+      </p>
+
+      <p className="text-warm-400 max-w-md text-sm leading-relaxed italic">
         Verstehen, was auf dem Spiel steht.
         <br />
         Handeln, wo es möglich ist.
@@ -35,7 +41,13 @@ export default function Hero() {
         Haltung finden, wenn es darauf ankommt.
       </p>
 
-      <div className="mt-16 flex flex-col items-center gap-2">
+      <p className="text-warm-300 text-xs max-w-sm leading-relaxed mt-8">
+        Kostenlos. Ohne Registrierung. Ohne Tracking.
+        <br />
+        Funktioniert auch ohne Internet, wenn Sie es ausdrucken.
+      </p>
+
+      <div className="mt-12 flex flex-col items-center gap-2">
         <span className="text-xs text-warm-300 tracking-widest uppercase">
           Entdecken
         </span>

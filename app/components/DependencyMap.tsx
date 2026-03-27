@@ -171,9 +171,15 @@ export default function DependencyMap() {
           <h2 className="text-3xl md:text-4xl font-light text-warm-800 mb-4">
             Was auf dem Spiel steht
           </h2>
-          <p className="text-warm-500 max-w-xl mx-auto leading-relaxed">
-            Unser Alltag ruht auf einem unsichtbaren Fundament. Wählen Sie einen
-            Bereich, um die Abhängigkeiten sichtbar zu machen.
+          <p className="text-warm-500 max-w-xl mx-auto leading-relaxed mb-4">
+            Medikamente, Lebensmittel, sauberes Wasser, Heizung — fast alles im
+            Alltag hängt an einer einzigen Ressource. Wählen Sie einen Bereich,
+            um die Abhängigkeit sichtbar zu machen.
+          </p>
+          <p className="text-warm-400 max-w-lg mx-auto text-xs leading-relaxed">
+            Die Grafik zeigt nicht Prognosen, sondern Strukturen. Diese
+            Abhängigkeiten existieren heute — unabhängig davon, ob morgen etwas
+            passiert oder nicht.
           </p>
         </div>
 
@@ -419,11 +425,17 @@ export default function DependencyMap() {
         )}
 
         {/* Closing note */}
-        <p className="text-center text-warm-400 text-sm mt-12 max-w-lg mx-auto italic">
-          Diese Zusammenhänge gelten unabhängig vom Anlass — ob blockierte
-          Seewege, geopolitische Konflikte oder Produktionsausfälle. Die
-          Strukturen bleiben dieselben.
-        </p>
+        <div className="text-center mt-12 max-w-lg mx-auto">
+          <p className="text-warm-500 text-sm leading-relaxed mb-3">
+            Das Ziel dieser Übersicht ist nicht Angst, sondern Klarheit. Wer
+            versteht, wie fragil die Versorgung ist, kann rechtzeitig handeln —
+            bevor es nötig wird.
+          </p>
+          <p className="text-warm-400 text-xs italic">
+            Die Frage ist nicht ob, sondern wann eine dieser Ketten reißt.
+            Vorbereitung ist keine Paranoia — sie ist Verantwortung.
+          </p>
+        </div>
       </div>
     </section>
   );

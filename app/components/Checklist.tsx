@@ -299,9 +299,14 @@ export default function Checklist() {
           <h2 className="text-3xl md:text-4xl font-light text-warm-800 mb-4">
             Was ich tun kann
           </h2>
-          <p className="text-warm-500 max-w-xl mx-auto leading-relaxed">
-            Eine persönliche Checkliste. Keine Registrierung — Ihre Daten
-            bleiben ausschließlich in Ihrem Browser.
+          <p className="text-warm-500 max-w-xl mx-auto leading-relaxed mb-3">
+            28 konkrete Dinge, die Ihren Haushalt für zwei Wochen unabhängig
+            machen. Orientiert an den Empfehlungen des Bundesamts für
+            Bevölkerungsschutz.
+          </p>
+          <p className="text-warm-400 max-w-md mx-auto text-xs leading-relaxed">
+            Keine Registrierung nötig. Ihr Fortschritt wird nur in Ihrem
+            Browser gespeichert — niemand sonst sieht, was Sie ankreuzen.
           </p>
         </div>
 
@@ -322,23 +327,26 @@ export default function Checklist() {
           {/* PDF Export button */}
           <button
             onClick={handlePdfExport}
-            className="mt-4 text-xs text-warm-500 hover:text-warm-700 transition-colors flex items-center gap-1.5 mx-auto"
+            className="mt-5 w-full py-3 px-4 bg-warm-800 text-warm-100 rounded-xl text-sm font-medium hover:bg-warm-700 active:bg-warm-900 transition-colors flex items-center justify-center gap-2.5"
           >
             <svg
-              className="w-3.5 h-3.5"
+              className="w-4.5 h-4.5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              strokeWidth="2"
+              strokeWidth="1.5"
             >
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"
+                d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
               />
             </svg>
-            Als PDF drucken / exportieren
+            Checkliste als PDF speichern
           </button>
+          <p className="text-center text-warm-400 text-xs mt-2">
+            Zum Ausdrucken, Aufhängen oder Teilen — auch offline nutzbar
+          </p>
         </div>
 
         {/* Categories */}

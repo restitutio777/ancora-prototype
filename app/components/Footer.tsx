@@ -16,7 +16,12 @@ export default function Footer() {
           <path d="M5 12H2a10 10 0 0 0 20 0h-3" />
         </svg>
 
-        <p className="text-warm-400 text-sm leading-relaxed max-w-md mx-auto italic mb-8">
+        <p className="text-warm-300 text-sm leading-relaxed max-w-md mx-auto mb-6">
+          Diese Seite wurde erstellt, damit Sie sie weitergeben. An Ihre
+          Familie, Ihre Nachbarn, an Menschen, die Ihnen wichtig sind.
+        </p>
+
+        <p className="text-warm-400 text-sm leading-relaxed max-w-md mx-auto italic mb-2">
           &bdquo;Macht euch nicht verrückt mit der Frage: Was essen wir morgen?
           Kümmert euch zuerst um das, was wirklich zählt — und das Nötige wird
           sich finden.&ldquo;
